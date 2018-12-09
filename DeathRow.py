@@ -82,7 +82,7 @@ allStatements = ' '.join(statementList)
 pywordcloud.create(allStatements, outfile="popularWords.html", uppercase=False, showfreq=False, frequency=100, removepunct=False, minfont=1.5, maxfont=10, hovercolor="green", showborder=False, fontfamily='calibri', width="1500px", height="400px")
 
 # Calling AWS Sentiment Analysis API and writing the output into a text file.
-# comprehend = boto3.client(aws_access_key_id='AKIAIEM3STY2AUEZKKRQ', aws_secret_access_key='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', service_name='comprehend', region_name='us-east-2')
+# comprehend = boto3.client(aws_access_key_id='******', aws_secret_access_key='******', service_name='comprehend', region_name='us-east-2')
 #
 # sentimentList = []
 # for text in statementList:
